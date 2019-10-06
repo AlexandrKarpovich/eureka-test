@@ -1,0 +1,34 @@
+mixin headerNavLink(link,text)
+    li.header-nav__item
+        a(href=link).header-nav__link= text
+
+header.header
+    .header__top
+        .container
+            .header__inner
+                .logo
+                    a.logo__link(href='#')
+                        img.logo__link__icon(src='img/logo.png')
+                .address
+                    .address__title Агентство недвижимости
+                    .address__direction
+                        span.address__direction__icon
+                            img(src="img/metro-icon.svg")
+                        | Москва, «Беляево», ул. Миклухо-Маклая, д. 43
+                .phone
+                    .phone__number
+                        a.phone__number__link(href="tel:74952760303") +7 (495) 276-03-03
+                    .phone__working Пн—Пт: с 09.00 до 21.00, Сб—Вс: с 10.00 до 17.00
+                button.btn Бесплатная консультация
+    nav.header-nav
+        .container
+            ul.header-nav__list
+                +headerNavLink('#','новостройки')
+                +headerNavLink('#','ЭЛИТНАЯ НЕДВИЖИМОСТЬ')
+                +headerNavLink('#','вторичная недвижимость')
+                +headerNavLink('#','коммерческая недвижимость')
+                +headerNavLink('#','коммерческая недвижимость')
+                +headerNavLink('#','УСЛУГИ')
+                +headerNavLink('#','КОНТАКТЫ')
+
+

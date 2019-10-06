@@ -1,0 +1,45 @@
+.build
+    .build__info.info
+        .info__title Микрорайон Некрасовка
+        .info__more
+            img.icon(src='img/metro-gr.svg')
+            | Марьина роща
+            span 2 минуты пешком
+        .info__other Москва, ЮВАО, район Некрасовка, Люберецкие поля аэрации
+        table.info__price.price
+            tbody.price__table
+                tr.price__row
+                    td.price__cell.cell-l 1-комнатные от 30 м²
+                    td.price__cell.cell-r 6 900 000 р.
+                tr.price__row
+                    td.price__cell.cell-l 2-комнатные от 75 м²
+                    td.price__cell.cell-r от 22 900 000 р.
+                tr.price__row
+                    td.price__cell.cell-l 3-комнатные от 74 м²
+                    td.price__cell.cell-r от 17 400 000 р.
+                tr.price__row
+                    td.price__cell.cell-l 4-комнатные от 177 м²
+                    td.price__cell.cell-r от 63 200 000 р.
+                tr.price__row
+                    td.price__cell.cell-l Стадия готовности:
+                    td.price__cell.cell-r Монтаж завершен. Ввод дома в эксплуатацию в 4 квартале 2019 года / На заселении.
+                tr.price__row
+                    td.price__cell.cell-l Ипотека:
+                    td.price__cell.cell-r Есть
+                tr.price__row
+                    td.price__cell.cell-l Отделка:
+                    td.price__cell.cell-r Возможна
+
+        mixin privilegesItem(link,text)
+            li.privileges__item
+                img.privileges__item__icon(src=link)
+                span.privileges__item__text=text
+
+        ul.info__privileges.privileges
+            +privilegesItem('img/house.svg', 'Ипотека')
+            +privilegesItem('img/calendar.svg', 'Рассрочка')
+            +privilegesItem('img/percentage.svg', 'Скидки')
+            +privilegesItem('img/ruble.svg', 'субсидии')
+
+    .build__pic.pic1
+        button.btn Подробнее

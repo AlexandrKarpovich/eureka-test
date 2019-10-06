@@ -1,0 +1,8 @@
+body {
+  width: 1440px;
+  /* width: 100%; */
+  /* height: 3781px; */
+  height: 5000px;
+  background: url("novoc-main.jpg") no-repeat top center;
+  background-size: cover;
+}
