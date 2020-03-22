@@ -11,4 +11,4 @@
 # Тестовое задание "erureka-test"
 
 
-[Links with title](http://localhost/ "link title")
+[eureka-test](http://AlexandrKarpovich.github.io/eureka-test/dist")
