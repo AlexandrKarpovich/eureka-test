@@ -1,4 +1,4 @@
-# AlexandrKarpovich.github.io/eureka-test
+# AlexandrKarpovich.github.io/eureka-test/dist
 
 
 # gulp + pug + stylus
