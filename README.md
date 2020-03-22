@@ -1,4 +1,4 @@
-`<link>` : <AlexandrKarpovich.github.io/eureka-test/dist>
+# <AlexandrKarpovich.github.io/eureka-test/dist>
 
 
 # gulp + pug + stylus
