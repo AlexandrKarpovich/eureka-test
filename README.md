@@ -1,4 +1,5 @@
-# eureka-test <AlexandrKarpovich.github.io/eureka-test/dist>
+[eureka-test](http://AlexandrKarpovich.github.io/eureka-test/dist")
+#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 
 
 # gulp + pug + stylus
@@ -9,6 +10,3 @@
 
 
 # Тестовое задание "erureka-test"
-
-
-#[eureka-test](http://AlexandrKarpovich.github.io/eureka-test/dist")
