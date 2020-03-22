@@ -7,4 +7,4 @@ gulp + pug + stylus
 * Запускаем проэкт через  -  gulp
 
 
-# Тестовое задание "erureka-test"
+Тестовое задание "erureka-test"
